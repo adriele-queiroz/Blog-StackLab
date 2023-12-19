@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Stack</title>
+  <!-- Box-icon -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/Assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <img class="logo" src="/Assets/images/logo.png" alt="" />
+      <a href="#" class="login">Inscreva-se</a>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-text container">
+      <h2 class="home-title">Blog StackXLab</h2>
+      <span class="home-subtitle">Explore conosco as maravilhas do futuro digital.</span>
+    </div>
+  </section>
+
+  <section class="about container" id="about">
+    <div class="contentBx">
+      <h2 class="titleText">
+        Fique por dentro dos melhores artigos e eventos de Tecnologia no
+        Brasil
+      </h2>
+      <p class="title-text">
+        Lista clara e objetiva dos principais eventos de Tecnologia, Inovação
+        e Segurança Digital no Brasil e no Mundo, previstos para 2024.
+        <br />Confira os Artigos Científicos sobre Tecnologia. Não deixa de
+        compartilhar o conhecimento! São milhares de Artigos sobre
+        Tecnologia!!
+      </p>
+    </div>
+    <div class="imgBx">
+      <img src="/Assets/images/about.png" alt="" class="fitBg" />
+    </div>
+  </section>
+
+  <div class="post-filter container">
+    <span class="filter-item active-filter" data-filter="all">Todos</span>
+    <span class="filter-item" data-filter="article">Artigos</span>
+    <span class="filter-item" data-filter="events">Eventos</span>
+  </div>
+
+  <div class="post container">
+    <!-- Post 1 -->
+    <div class="post-box article">
+      <a href="/post.html" class="post-link"></a>
+      <img src="/Assets/images/post1.png" alt="" class="post-img" />
+      <h2 class="category">Artigos</h2>
+      <a href="/post.html" class="post-title">Reino Unido quer saber se Microsoft é parceira ou dona da OpenAI</a>
+      <span class="post-date">08 Dez 2023</span>
+      <p class="post-description">
+        CMA passou a prestar atenção nas empresas após novela envolvendo
+        demissão de CEO e entrada da Microsoft no conselho da OpenAI
+      </p>
+      <div class="views">
+        Visualizações: <span class="views-count" data-post-id="post">0</span>
+      </div>
+      <a href="https://tecnoblog.net/noticias/2023/12/08/reino-unido-quer-saber-se-microsoft-e-parceira-ou-dona-da-openai/"
+        class="btn2 active" id="read_button">Saiba mais</a>
+      <div class="profile">
+        <img src="Assets/images/testi1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Por Lupa Charle </span>
+      </div>
+    </div>
+    <!-- Post 2 -->
+    <div class="post-box events">
+      <a href="/post1.html" class="post-link"></a>
+      <img src="/Assets/images/evento1.png" alt="" class="post-img" />
+      <h2 class="category">Eventos</h2>
+      <a href="post1.html" class="post-title">RD Summit - EM 2023, FORAM MAIS DE 150 PALESTRANTES</a>
+      <span class="post-date">12 Feb 2024</span>
+      <p class="post-description">
+        O RD Summit, considerado o maior evento em Marketing, Vendas e
+        Inovação da América Latina, ocorrerá nos dias 8, 9 e 10 de fevereiro,
+        no Expo Centro Norte, em São Paulo/SP.
+      </p>
+      <div class="views">
+        Visualizações: <span class="views-count" data-post-id="post1">0</span>
+      </div>
+      <a href="https://rdsummit.rdstation.com/" class="btn2 active" id="read_button">Saiba mais</a>
+
+      <div class="profile">
+        <img src="Assets/images/testi2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Por Eduardo </span>
+      </div>
+    </div>
+    <!-- Post 3 -->
+    <div class="post-box events">
+      <img src="/Assets/images/evento2.png" alt="" class="post-img" />
+      <h2 class="category">Eventos</h2>
+      <a href="/post2.html" class="post-title">SANS Cyber Threat Intelligence Summit, Washington</a>
+      <span class="post-date">19 Feb 2024</span>
+      <p class="post-description">
+        Cúpula e treinamento de inteligência sobre ameaças cibernéticas SANS
+        2024.
+      </p>
+      <div class="views">
+        Visualizações:
+        <span class="views-count" data-post-id="post2">0</span>
+      </div>
+      <a href="https://www.sans.org/cyber-security-training-events/cyber-threat-intelligence-summit-2024/?ref=agendati.com.br"
+        class="btn2 active" id="read_button">Saiba mais</a>
+      <div class="profile">
+        <img src="Assets/images/testi2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Por Eduardo </span>
+      </div>
+    </div>
+
+    <!-- Post 4 -->
+    <div class="post-box article">
+      <img src="/Assets/images/post2.png" alt="" class="post-img" />
+      <h2 class="category">Artigos</h2>
+      <a href="post3.html" class="post-title">Gemini: demonstração da nova IA do Google teria sido ensaiada</a>
+      <span class="post-date">08 Dez 2023</span>
+      <p class="post-description">
+        Colunista da Bloomberg diz que big tech admitiu que apresentação teria
+        sido totalmente editada; executivos negam as informações.
+      </p>
+      <div class="views">
+        Visualizações:
+        <span class="views-count" data-post-id="post3">0</span>
+      </div>
+      <a href="https://tecnoblog.net/noticias/2023/12/08/gemini-demonstracao-de-nova-ia-do-google-teria-sido-ensaiada/"
+        class="btn2 active" id="read_button">Saiba mais</a>
+      <div class="profile">
+        <img src="assets/images/testi1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Por Lupa Charle</span>
+      </div>
+    </div>
+
+    <!-- Post 5 -->
+    <div class="post-box article">
+      <img src="Assets/images/post3.png" alt="" class="post-img" />
+      <h2 class="category">Artigos</h2>
+      <a href="post4.html" class="post-title">ChatGPT foi a página mais vista na Wikipédia em 2023</a>
+      <span class="post-date">06 Dez 2023</span>
+      <p class="post-description">
+        A Wikimedia Foundation divulgou a lista dos artigos mais populares na
+        Wikipédia em 2023.
+      </p>
+      <div class="views">
+        Visualizações:
+        <span class="views-count" data-post-id="post4">0</span>
+      </div>
+      <a href="https://tecnoblog.net/noticias/2023/12/06/chatgpt-foi-a-pagina-mais-vista-na-wikipedia-em-2023/"
+        class="btn2 active" id="read_button">Saiba mais</a>
+      <div class="profile">
+        <img src="Assets/images/testi1.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Por Lupa Charle</span>
+      </div>
+    </div>
+
+    <!-- Post 6 -->
+    <div class="post-box events">
+      <img src="Assets/images/imagem3.png" alt="" class="post-img" />
+      <h2 class="category">Eventos</h2>
+      <a href="post5.html" class="post-title">Developer Week, Virtual - é a maior série de conferências e eventos
+        para desenvolvedores</a>
+      <span class="post-date">27 Feb 2024</span>
+      <p class="post-description">
+        Junte-se a mais de 8.000 profissionais na maior exposição +
+        conferência de desenvolvedores e engenharia do mundo
+      </p>
+      <div class="views">
+        Visualizações:
+        <span class="views-count" data-post-id="post5">0</span>
+      </div>
+      <a href="https://www.developerweek.com/?ref=agendati.com.br" class="btn2 active" id="read_button">Saiba mais</a>
+      <div class="profile">
+        <img src="Assets/images/testi2.jpg" alt="" class="profile-img" />
+        <span class="profile-name">Por Eduardo </span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="sec about-us">
+        <h2>Sobre nós</h2>
+        <p>
+          Bem-vindo ao nosso universo tecnológico! Somos mais do que um
+          simples blog; somos uma comunidade apaixonada por inovação e avanços
+          tecnológicos. Aqui, mergulhamos nas últimas tendências,
+          compartilhamos insights valiosos e mantemos você atualizado sobre os
+          artigos mais empolgantes e eventos imperdíveis no mundo da
+          tecnologia.
+        </p>
+        <ul class="sci">
+          <li>
+            <a href="https://github.com/adriele-queiroz"><i class="bx bxl-github"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/adriele-queiroz/"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="sec quicklinks">
+        <h2>Links Rápidos</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </div>
+      <div class="sec contactBx">
+        <h2>Infomaçõs de contato</h2>
+        <ul class="info">
+          <li>
+            <span><i class="bx bxs-map"></i></span>
+            <span>111111 Itajaí-SC <br />
+              Beira do rio 226
+            </span>
+          </li>
+          <li>
+            <span><i class="bx bx-envelope"></i></span>
+            <p>
+              <a href="mailto:adriqueirozz@gmail.com">adriqueirozz@gmail.com</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/Assets/js/main.js"></script>
+</body>
+
+</html>
